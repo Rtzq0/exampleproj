@@ -2,9 +2,7 @@ This is a test of raw html on GitHub
 
 .. raw:: html
 
-  foo<script>//<!--alert
-  ('test');
-  //-->
-  </script>
+  foo
+  <a href="javascript:alert(/hacked/)">Hello!</a>
   
 See, it's not passed or rendered?
