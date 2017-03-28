@@ -2,6 +2,9 @@ This is a test of raw html on GitHub
 
 .. raw:: html
 
-  foo
+  foo<script>//<!--alert
+  ('test');
+  //-->
+  </script>
   
 See, it's not passed or rendered?
